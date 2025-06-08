@@ -1,0 +1,133 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.checkout-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5d4037;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.order-summary {
+    margin-bottom: 30px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #fcfcfc;
+}
+
+.summary-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.summary-item:last-child {
+    border-bottom: none;
+}
+
+.summary-item span:first-child {
+    font-weight: bold;
+    color: #555;
+}
+
+.summary-total {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 0;
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #5d4037;
+    border-top: 2px solid #795548;
+    margin-top: 20px;
+}
+
+.payment-section {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.payment-section label {
+    font-weight: bold;
+    color: #555;
+}
+
+.payment-section select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 300px;
+}
+
+.payment-section button {
+    background-color: #5d4037;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    align-self: flex-start;
+}
+
+.payment-section button:hover {
+    background-color: #4e342e;
+}
+
+.message {
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.info {
+    background-color: #e0f2f7;
+    color: #01579b;
+    border: 1px solid #81d4fa;
+}
+
+.error {
+    background-color: #ffebee;
+    color: #c62828;
+    border: 1px solid #ef9a9a;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .checkout-container {
+        padding: 15px;
+        margin: 20px auto;
+    }
+
+    .summary-item, .summary-total {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 5px;
+    }
+
+    .summary-item span:last-child, .summary-total span:last-child {
+        align-self: flex-end;
+    }
+}
