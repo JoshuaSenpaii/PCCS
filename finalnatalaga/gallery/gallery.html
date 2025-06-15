@@ -1,0 +1,159 @@
+<html>
+
+ <style>
+    <head>
+ <style>
+    /* Basic Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .design-showcase {
+      padding: 60px 20px;
+      background: #fefefe;
+      text-align: center;
+    }
+
+    .section-header h2 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .section-header p {
+      font-size: 1rem;
+      color: #666;
+      max-width: 600px;
+      margin: 0 auto 40px auto;
+    }
+
+    .tab-buttons {
+      margin-bottom: 30px;
+    }
+
+    .tab-btn {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 20px;
+      background-color: black;
+      color: white;
+      font-weight: bold;
+      cursor: pointer;
+      margin: 0 10px;
+      transition: background-color 0.3s;
+    }
+
+    .tab-btn:hover,
+    .tab-btn.active {
+      background-color: black;
+    }
+
+    .design-grid {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+    .design-card {
+      background: #fff;
+      border-radius: 25px;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      width: 300px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .design-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+    }
+
+    .design-img img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-bottom: 5px solid#F5F5DC;
+    }
+
+    .design-content {
+      padding: 20px;
+    }
+
+    .design-content h3 {
+      font-size: 1.25rem;
+      margin-bottom: 10px;
+      color: #444;
+    }
+
+    .design-content p {
+      font-size: 0.95rem;
+      color: #777;
+    }
+  </style>
+</head>
+
+ </style>
+ <!-- Design Showcase Section -->
+      <section id="about" class="design-showcase">
+        <div class="container">
+          <div class="section-header">
+            <h2>Our Aesthetic</h2>
+            <p>
+              Experience the unique atmosphere and design elements that make our
+              coffee shop special. From our carefully curated interior to our
+              custom cup designs, every detail is crafted to enhance your coffee
+              experience.
+            </p>
+          </div>
+
+        
+
+            <div class="tab-content active" id="interior">
+              <div class="design-grid">
+                <div class="design-card">
+                  <div class="design-img">
+                    <img
+                      src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                      alt="Main Seating Area"
+                    />
+                  </div>
+                  <div class="design-content">
+                    <h3>Main Seating Area</h3>
+                    <p>Comfortable seating with natural light and plants</p>
+                  </div>
+                </div>
+
+                <div class="design-card">
+                  <div class="design-img">
+                    <img
+                      src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                      alt="Coffee Bar"
+                    />
+                  </div>
+                  <div class="design-content">
+                    <h3>Coffee Bar</h3>
+                    <p>ANO ILALAGAY KO RITO</p>
+                  </div>
+                </div>
+
+                <div class="design-card">
+                  <div class="design-img">
+                    <img
+                      src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80"
+                      alt="Reading Nook"
+                    />
+                  </div>
+                  <div class="design-content">
+                    <h3>Reading Nook</h3>
+                    <p>A cozy corner to enjoy your coffee with a good book</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+</html>
